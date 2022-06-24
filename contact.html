@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <title>ARMO Baukonzept</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="ARMO Baukonzept" />
+      <meta name="keywords" content="ARMO Baukonzept" />
+      <meta content="ARMO Baukonzept" name="author" />
+      <!-- App favicon -->
+      <link rel="shortcut icon" href="assets/images/favicon.png">
+      <!-- Icons Css -->
+      <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
+      <!-- Tailwind Css-->
+      <link href="assets/css/tailwind.css" rel="stylesheet" type="text/css" />
+      <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+   </head>
+   <body>
+      <!-- Navbar Start -->
+      <div class="navbar-custom" id="navbar">
+         <nav>
+            <div class="lg:container flex flex-wrap justify-between items-center">
+               <!-- Main Logo -->
+               <a href="index.html" class="flex lg:ml-0 ml-4">
+               <img class="logo m-auto" src="assets/images/logo.png" alt="logo">
+               </a>
+               <div class="flex items-center lg:order-2 lg:mr-0 mr-8">
+                  <!-- Navbar Button -->
+                  <a href="javascript:void(0)">
+                  <img class="inline-block" width="17" src="assets/images/icon/phone.svg" alt="phone">
+                  </a>
+                  <a href="javascript:void(0)" class="px-4">
+                  <img class="inline-block" width="20" src="assets/images/icon/mail.svg" alt="mail">
+                  </a>
+                  <a href="javascript:void(0)">
+                  <img class="inline-block" width="20" src="assets/images/icon/map.svg" alt="map">
+                  </a>
+                  <!-- Navbar Collapse Manu Button -->
+                  <button data-collapse="menu-collapse" type="button"
+                     class="inline-flex items-center ml-3 text-sm text-white lg:hidden" aria-controls="menu-collapse"
+                     aria-expanded="false">
+                  <span class="sr-only">Open main menu</span>
+                  <i class="mdi mdi-menu text-2xl"></i>
+                  </button>
+               </div>
+               <!-- Navbar Manu -->
+               <div class="justify-between items-center w-full lg:w-auto lg:flex hidden lg:order-1 lg:ml-14 ml-0"
+                  id="menu-collapse">
+                  <ul class="navbar-nav lg:h-auto h-[290px] lg:overflow-visible overflow-y-scroll lg:ml-0 ml-8"
+                     id="navbar-navlist">
+                     <li>
+                        <a href="index.html" class="nav-item">Home</a>
+                     </li>
+                     <li>
+                        <a href="about.html" class="nav-item">About</a>
+                     </li>
+                     <li>
+                        <a href="gallery.html" class="nav-item">Gallery</a>
+                     </li>
+                     <li>
+                        <a href="services.html" class="nav-item">Services</a>
+                     </li>
+                     <li>
+                        <a href="contact.html" class="nav-item">Contact</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </div>
+      <!-- Navbar End -->
+      <!-- Home Start -->
+      <section class="banner pt-32 pb-0" id="home">
+         <div class="overflow-hidden">
+            <img class="absolute inset-0 h-full w-full object-cover" src="assets/images/banner.png"
+               alt="build your website image">
+         </div>
+         <div class="container">
+            <div class="flex justify-center items-center">
+               <div class="lg:w-2/3 relative">
+                  <h2 class="text-white text-5xl letter-2 font-400 capitalize mb-4">
+                     Contact us
+                  </h2>
+                  <ul class="flex text-warning text-sm uppercase letter-4 font-open mb-4">
+                     <li>
+                        <a href="index.html">Home</a>
+                     </li>
+                     <li class="px-2">
+                        >
+                     </li>
+                     <li>
+                        Contact
+                     </li>
+                  </ul>
+               </div>
+               <div class="lg:w-2/3 relative">
+                  <img class="d-md-block" src="assets/images/contact.png" alt="contact">
+                  <img class="d-md-none" src="assets/images/contact-mb.png" alt="contact">
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Home Start -->
+      <!-- Contact Start -->
+      <section id="contact">
+         <div class="container">
+            <div class="grid grid-cols-1 lg:grid-cols-12 items-center gap-7 py-10">
+               <div class="lg:col-span-5">
+                  <!-- office Address -->
+                  <div class="mb-10">
+                     <p class="text-sm font-open letter-4 font-medium uppercase text-warning mb-3">Contact us</p>
+                     <h1 class="text-white font-libre text-5xl">Say Hello</h1>
+                  </div>
+                  <ul class="text-md mb-10">
+                     <li class="flex align-start">
+                        <img class="mr-2 mb-4" src="assets/images/icon/location.svg" alt="location"> StationB Quture 20. 4 garvis Alan aring, 44013 Syndey, Australia
+                     </li>
+                     <li class="flex pt-2">
+                        <img class="mr-2" src="assets/images/icon/email.svg" alt="email"> <a href="mailto:hello@PhoenixBau.c">Email:  hello@PhoenixBau.c</a>
+                     </li>
+                     <li class="flex pt-6">
+                        <img class="mr-2" src="assets/images/icon/call.svg" alt="call"> <a href="mailto:email@studioblue.com">Phone: email@studioblue.com</a>
+                     </li>
+                  </ul>
+                  <img src="assets/images/map.png" alt="map">
+               </div>
+               <div class="lg:col-span-7">
+                  <!-- Contact Form -->
+                  <form action="" name="myForm" id="myForm">
+                     <!-- Subject Input -->
+                     <label class="font-libre flex mb-3">First Name*</label>
+                     <input type="text" class="border-0 text-gray-900 bg-gray-800 text-sm rounded focus:ring-0 focus:border-gray-400 block w-full p-3 mb-6" name="subject" id="f_name">
+                     <!-- Subject Input -->
+                     <label class="font-libre flex mb-3">Last Name*</label>
+                     <input type="text" class="border-0 text-gray-900 bg-gray-800 text-sm rounded focus:ring-0 focus:border-gray-400 block w-full p-3 mb-6" name="subject" id="l_name">
+                     <!-- Subject Input -->
+                     <label class="font-libre flex mb-3">Email ID*</label>
+                     <input type="email" class="border-0 text-gray-900 bg-gray-800 text-sm rounded focus:ring-0 focus:border-gray-400 block w-full p-3 mb-6" name="subject" id="email">
+                     <!-- Maessage Textarea Input -->
+                     <label class="font-libre flex mb-3">Message*</label>
+                     <textarea class="border-0 text-gray-900 bg-gray-800 text-sm rounded focus:ring-0 focus:border-gray-400 block w-full p-3 mb-6" name="comments" id="comments" rows="4"></textarea>
+                     <!-- Form Submit Button -->
+                     <div class="text-right">
+                        <button type="submit" class="btn bg-white font-500 text-black uppercase mb-5 mt-3">SEND MESSAGE <i class="mdi mdi-arrow-right"></i></button>
+                     </div>
+                  </form>
+                  <!--end form-->
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Contact End -->
+      <!-- Footer Start -->
+      <footer class="bg-footer pt-6">
+         <div class="container">
+            <div class="flex justify-center">
+               <div class="lg:w-2/3 text-center relative">
+                  <a href="index.html"><img class="m-auto" width="160" src="assets/images/logo.png" alt="logo"></a>
+                  <p class="text-gray-300 text-md pt-2 mb-2">StationB Quture 20. 4 garvis Alan aring, 44013 <br /> Syndey, Australia</p>
+                  <p>
+                     <a href="mailto:hello@PhoenicBau.com" class="text-white text-md">hello@PhoenicBau.com</a> - 
+                     <a href="mailto:hello2@PhoenixBau.com" class="text-white text-md">hello2@PhoenixBau.com</a>
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <hr class="mt-10">
+            <div class="grid grid-cols-1 lg:grid-cols-3 items-center gap-6 py-4">
+               <div class="col-span-2">
+                  <div class="text-sm text-gray-400 copyright">
+                     PhoenixBau @Copyright <script>document.write(new Date().getFullYear()) </script>. All Rights Reserved. -  <a href="javascript:void(0)" class="text-white">Terms & Service</a>
+                  </div>
+               </div>
+               <div class="ml-auto">
+                  <a href="tel:800-642-042" class="btn border border-gray-400 text-xs text-white py-2 px-2 mr-2">
+                  <img class="inline-block" width="13" class="mr-1" src="assets/images/icon/phone.svg" alt="phone"> 800-642-0420</a>
+                  <a href="mailto:company@aqua.com" class="btn border border-gray-400 text-xs text-white py-2 px-2">
+                  <img class="inline-block" width="16" class="mr-2" src="assets/images/icon/envelope.svg" alt="envelope"> company@aqua.com</a>
+               </div>
+            </div>
+         </div>
+      </footer>
+      
+      <!-- Smooth-Scroll Javascript -->
+      <script src="assets/js/smooth-scroll.polyfills.min.js"></script>
+      <script src="assets/js/gumshoe.polyfills.min.js"></script>
+      <!-- Custom Javascript -->
+      <script src="assets/js/app.js"></script>
+   </body>
+</html>
