@@ -1,4 +1,9 @@
 
+/* Icon */
+
+@import url('../../assets/css/icons.css');
+@import url('../../assets/css/tailwind.css');
+
 /* Google fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
@@ -363,6 +368,11 @@ section {
 	left: 50px;
 }
 
+
+#map iframe,
+#contact iframe {
+	width: 100% !important;
+}
 
 footer hr {
 	border-top: 1.01598px solid #393B42;
